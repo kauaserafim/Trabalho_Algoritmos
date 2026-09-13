@@ -1,0 +1,26 @@
+#include <conio.h>
+#include <stdio.h>
+//exer 6
+
+int calcIdade( int anoAtual, int anoNasc)
+{
+	int subt, result;
+	
+	subt = anoAtual - anoNasc;
+	return result;
+}
+
+void main()
+{
+	int anoNasc, anoAtual, result;
+	
+	printf("\nDigite o ano do seu nascimento: ");
+	scanf("%d", &anoNasc);
+	
+	printf("\nDigite o ano atual: ");
+	scanf("%d", &anoAtual);
+	
+	
+	result = calcIdade(anoAtual, anoNasc);
+	printf("\nA sua idade eh: %d",result);
+}
